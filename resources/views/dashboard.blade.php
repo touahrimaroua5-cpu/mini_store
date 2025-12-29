@@ -12,13 +12,13 @@
     </a>
 
     <!-- Total Products -->
-    <a href="{{ route('products.index') }}" class="bg-green-500 text-white rounded-lg p-6 shadow hover:scale-105 transition block">
+    <a href="{{ route('products.index') }}" class="bg-blue-500 text-white rounded-lg p-6 shadow hover:scale-105 transition block">
         <h3 class="text-xl font-bold">Products</h3>
         <p class="text-3xl font-extrabold">{{ $totalProducts }}</p>
     </a>
 
     <!-- Total Clients -->
-    <a href="{{ route('clients.index') }}" class="bg-yellow-500 text-white rounded-lg p-6 shadow hover:scale-105 transition block">
+    <a href="{{ route('clients.index') }}" class="bg-blue-500 text-white rounded-lg p-6 shadow hover:scale-105 transition block">
         <h3 class="text-xl font-bold">Clients</h3>
         <p class="text-3xl font-extrabold">{{ $totalClients }}</p>
     </a>
@@ -28,13 +28,13 @@
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 
     <!-- Total Orders -->
-    <a href="{{ route('orders.index') }}" class="bg-purple-500 text-white rounded-lg p-6 shadow hover:scale-105 transition block">
+    <a href="{{ route('orders.index') }}" class="bg-blue-500 text-white rounded-lg p-6 shadow hover:scale-105 transition block">
         <h3 class="text-xl font-bold">Orders</h3>
         <p class="text-3xl font-extrabold">{{ $totalOrders }}</p>
     </a>
 
     <!-- Low Stock Products -->
-    <a href="{{ route('products.index') }}" class="bg-red-500 text-white rounded-lg p-6 shadow hover:scale-105 transition block">
+    <a href="{{ route('products.index') }}" class="bg-blue-500 text-white rounded-lg p-6 shadow hover:scale-105 transition block">
         <h3 class="text-xl font-bold mb-2">Low Stock Products</h3>
         <ul class="list-disc pl-5">
             @forelse($lowStockProducts as $product)
